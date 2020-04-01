@@ -1,31 +1,302 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Support Coronavirus Relief Efforts</title>
-	<style type="text/css">
-		body {
-			padding: 10px 0;
-			border: 20px solid purple;
-			border-style: groove;
-			text-align: center;
-			background-color: rgb(150, 100, 250);
-			font-family:'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L',cursive;
-			color: white;
-		}
-		p{
-			font-family: "Lucinda Sans Unicode", "Lucinda Grande", sans serif;
-			color: white;
-		}
-	</style>
-	
-	<script>
-	
-	</script>
-</head>
-	<body>
-		<h1>PPE Donations</h1>
-		<p> Welcome to the game!</p>
-		<p>Please choose either Rock, Paper, or Scissors to play:</p>
+<html lang="en-US">
 
-	</body>
+<head>
+  <title>pre-loved: join the fight against COVID-19</title>
+  <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="css/pre-loved.css">
+  <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+  <script src="js/script.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Clicker+Script|EB+Garamond&display=swap"
+  rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <ul id="main-nav">
+      <li style="float:left;">
+        <a id="logo" href="index.html"><img src="img/pre-loved_logo.png" alt="logo"></a>
+      </li>
+      <li><a href="#contact">Donate</a></li>
+      <li><a href="#dance">Learn</a></li>
+      <li><a href="#advocate">Adovcate</a></li>
+      <li><a href="#about">About Us</a></li>
+    </ul>
+
+    <!-- END -->
+
+  </header>
+
+  <div class="content">
+
+  <!-- Parallax Scrolling -->
+
+    <!-- A bit about me paragraph -->
+    <div class="intro" id="about">
+      <p>
+      I am a second year computer science major at the <a href="https://www.uchicago.edu/"
+      target="_blank" class="links">University of Chicago</a>.
+      I enjoy exploring the application of programming to a variety of fields ranging
+       from computational biology to economics.  On campus, I enjoy dancing as a
+       choreographer for
+       <a href="https://www.facebook.com/apsara.uchicago/" target="_blank" class="links">Apsara </a>
+       and  <a href="https://www.facebook.com/UChicagoSASA/" target="_blank" class="links">SASA </a>
+       and making coding more accessible to girls through
+       <a href="http://compileher.com/" target="_blank" class="links">CompileHer</a>.
+      </p>
+    </div>
+
+    <div class="bgimg-3" id="developer">
+      <div class="caption">
+      <span class="border" style="color: #f7f7f7;">SOFTWARE PROJECTS</span>
+      </div>
+    </div>
+
+  <!-- Software Projects Content -->
+    <div style="position:relative; padding:5%;">
+      <div class="row">
+
+          <div class="column">
+            <a href="https://github.com/uchicago-cs/chiventure" target="_blank">
+              <button class="btn" id="chiventure"><img src="images/chiventure.jpg"
+              alt="Chiventure!" class = "project"></button>
+            </a>
+            <p>
+              <b style="font-family: 'Clicker Script', cursive;">C</b>: I worked on the World Description Language Team for a
+              text-based adventure game engine in my software development class.
+              We worked in an Agile environment and followed scrum methodology
+              with bi-weekly sprints and weekly team meetings. Using the YAML
+              library, we developed code for game designers to load in desired
+              actions, items, rooms, and game definitions.
+            </p>
+          </div>
+
+        <div class="column">
+          <a href="https://bansals10.github.io/seek_uncommon_hacks/" target="_blank">
+            <button class="btn" id="portfolio"><img src="images/seek.jpg"
+            alt="SEEK" class ="project"></button>
+          </a>
+          <p>
+            <b style="font-family: 'Clicker Script', cursive;">HTML/CSS/JavaScript/jQuery</b>: At Uncommon Hacks 2019,
+            my team created this interactive site within 24 hours. Inspired by
+            J.P. Morgan's "Best Hack for Social Good" challenge, we developed
+            a website to teach financial literacy to univeristy students. Through
+            interactive games and animations, we incorporated credit explanations
+            and form identification. We won the "Best Hack for Social Good" award!
+          </p>
+        </div>
+
+        <div class="column">
+          <a href="https://github.com/bansals10/portfolio" target="_blank">
+            <button class="btn" id="portfolio"><img src="images/website.jpg"
+            alt="Personal Website!" class ="project"></button>
+          </a>
+          <p>
+            <b style="font-family: 'Clicker Script', cursive;">HTML/CSS/JavaScript/jQuery</b>:
+            I created my personal portfolio to highlight some of the exciting
+            projects that I have worked on over the years. Building this website
+            from scratch was a very fulfilling process and gave me experience with
+            incorporating a variety of design elements. I began working on this
+            project during Girls Who Code and have continued to improve it.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="column">
+            <button class="btn" id="portfolio"><img src="images/malloc.jpg"
+            alt="Memory Allocator" class ="project"></button>
+          <p>
+            <strong style="font-family: 'Clicker Script', cursive;">C</strong>: I developed a memory allocator through my winter
+            quarter Data Structures course. Using a binary search tree traversal,
+            I applied an efficient algorithm that returned the address in memory
+            of the usable storage. This project was completed over two weeks as
+            the final assignment for the course.
+            </aside>
+
+            </aside>
+          </p>
+        </div>
+
+        <div class="column">
+            <button class="btn" id="chiventure"><img src="images/go.jpg"
+            alt="Go" class = "project"></button>
+          <p>
+            <strong style="font-family: 'Clicker Script', cursive;">Racket</strong>: Over six weeks, I utilized functional programming
+            techniques to create the ancient Chinese game, Go. I built all
+            components of this game for the final project for my first
+            data structures class and incorporated numerous UI elements such as
+            a timer, prediction feature, and scoreboard. The backend algorithms for
+            this game were also written to allow for a flexible board size and
+            multi-player features.
+          </p>
+        </div>
+
+        <div class="column">
+          <a href="src/final_multiscale.pdf" target="_blank">
+            <button class="btn" id="chiventure"><img src="images/multiscale.jpg"
+            alt="Data Science" class = "project"></button>
+          </a>
+          <p>
+            <b style="font-family: 'Clicker Script', cursive;">R</b>: Performed analysis of unknown DNA sequence using next-generation
+            sequencing techniques and the Univeristy of Chicago supercomputer,
+            Midway. Analyzed sequence data using R to identify chromosome
+            distributions and generated conclusions by cross referencing exisiting
+            genomic databases.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="bgimg-2" id="advocate">
+      <div class="caption">
+        <span class="border typewriter" style="color: #f7f7f7;">ADVOCATE FOR WOMEN IN TECH</span>
+      </div>
+    </div>
+
+    <!-- Women in tech PP -->
+    <div style="position:relative;">
+      <div class="row">
+        <div class="zoom">
+          <div class="column" style="background-color:#1F255E;">
+            <h2><img src="images/compileher.jpg" alt="CompileHer" id="wit"></h2>
+            <p>As the Internal Outreach Chair, I organized 100 volunteers for our
+            large scale events tailored towards middle school girls. The dreamHer hackathon
+          and superpowHer tech capstone were both incredible experiences! I am looking forward
+        to working as Events Lead.</p>
+          </div>
+        </div>
+      <div class="zoom">
+        <div class="column" style="background-color:#3D437C;">
+          <h2><img src="images/gwc.png" alt="Girls Who Code" id="wit"></h2>
+          <p>I have spent the past eight weeks teaching girls in the Chicago area
+          how to program. From preliminary Choose Your Own Adventure games in Scratch
+          to automated electric pianos, I have helped the girls come together
+          to form a community of future technologists.</p>
+        </div>
+      </div>
+        <div class="zoom">
+          <div class="column" style="background-color:#656BA4;">
+            <h2><img src="images/ghc.png" alt="Grace Hopper Conference" id="wit"></h2>
+            <p>I have been awarded the Career Advancement GHC Grant to attend the
+              Grace Hopper Celebration in October, 2019.
+              I am looking forward to inspiring and being inspired
+              by the amazing women at the conference.
+              Stay tuned for updates about the conference!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="bgimg-4" id="dance">
+    <div class="caption">
+    <span class="border">DANCE</span>
+    </div>
+  </div>
+
+  <div class="kathak">
+    <p style="padding-left:20%; padding-right:20%; padding-bottom: 7%;">
+      For over thirteen years, I have learning, performing, and teaching
+      the Indian Classical dance form, Kathak. In 2016, I had my Kathak
+      Rangmanch Visharad, a three hour long graduation performance for
+      an audience of 700 people. After this event, I began teaching
+      younger students at Tarana Kathak Dance Academy. Through the dances I
+      lead, I passed on my skills and emphasized how my students could form a
+      personal bond with Kathak and our rich cultural heritage. At UChicago,
+      I continue sharing my passion with Apsara and SASA.
+    </p>
+    <div class="iframe-container">
+      <iframe width="560" height="315" style="float:center; padding:0%; margin:0%;"
+      src="https://www.youtube.com/embed/HmTN4bIQXe0" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    </div>
+
+    <!-- Slideshow of images -->
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="images/kathak1.jpg" style="width:100%">
+        <div class="text">Christmas</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="images/kathak2.jpg" style="width:100%">
+        <div class="text">Jaipur Gharana</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="images/kathak3.jpg" style="width:100%">
+        <div class="text">Holi</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="images/kathak4.jpg" style="width:100%">
+        <div class="text">Lucknow Gharana</div>
+      </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+
+  <div class="bgimg-5" id="contact">
+    <div class="caption">
+    <span class="border">CONTACT ME</span>
+    </div>
+  </div>
+
+  <div class="contact_container">
+    <form method="POST" action="https://formspree.io/bansals@uchicago.edu">
+			<div class="row uniform">
+				<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+        <div class="6u$ 12u$(xsmall)"><input type="text" name="email" id="email" placeholder="Email" /></div>
+				<div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+				<div class="12u$">
+					<ul class="actions">
+						<li><input type="submit" value="Send Message" class="special" /></li>
+					</ul>
+				</div>
+			</div>
+		</form>
+  </div>
+
+  <div id="icons">
+     <a href="https://linkedin.com/in/shriyabansal/" target="_blank">
+       <button class="iconbtn"><i class="fa fa-linkedin-square"
+         style="padding-right:10%;"></i></button></a>
+     <a href="https://github.com/bansals10" target="_blank">
+       <button class="iconbtn"><i class="fa fa-github" style="padding-right:10%;"></i></button>
+     </a>
+     <a href="mailto:bansals@uchicago.edu">
+     <button class="iconbtn"><i class="fa fa-envelope"></i></button>
+     </a>
+
+  </div>
+
+
+</div>
+
+<!-- END -->
+
+
+</body>
 </html>
