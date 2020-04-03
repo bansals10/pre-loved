@@ -1,2 +1,0 @@
-# pre-loved
-Shriya Bansal
